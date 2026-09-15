@@ -181,7 +181,7 @@ h1 {
     padding: 50px 20px;
 }
 
-.container_categorias{
+.container_categorias {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -212,7 +212,7 @@ h1 {
 
 }
 
-.colunas_categorias{
+.colunas_categorias {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -242,3 +242,36 @@ h1 {
     font-size: 24px;
 }
 
+/* --footer-- */
+
+.footer{
+
+    background-color: #FFF4F4;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    
+}
+
+.footer_container span,
+.nav_footer a {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.nav_footer a{
+text-decoration: none;
+color: #747878;
+
+}
